@@ -1,0 +1,140 @@
+
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <!---------------CSS Files-------------->
+     <link rel="stylesheet" href="images/test.css">
+     <link rel="stylesheet" href="css/skins/color-1.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+     <!----------Style Switcher--------->
+     <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+     <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+     <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+     <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+     <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+     <link rel="stylesheet" href="css/style-switcher.css">
+ </head>
+ <body>
+       
+              <!-------Portfolio Section Start----->
+              <section class="portfolio section" id="portfolio">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Portfolio</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="portfolio-heading padd-15">
+                            <h2>My Last Projects :</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!------Portfolio item Start------>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/Portfolio/build-an-app-to-expand-food-access-card.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!------Portfolio item End------>
+                        <!------Portfolio item Start------>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/Portfolio/build-an-app-to-expand-food-access-card.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!------Portfolio item End------>
+                        <!------Portfolio item Start------>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/Portfolio/build-an-app-to-expand-food-access-card.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!------Portfolio item End------>
+                        <!------Portfolio item Start------>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/Portfolio/build-an-app-to-expand-food-access-card.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!------Portfolio item End------>
+                        <!------Portfolio item Start------>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/Portfolio/build-an-app-to-expand-food-access-card.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!------Portfolio item End------>
+                        <!------Portfolio item Start------>
+                        <div class="portfolio-item padd-15">
+                            <div class="portfolio-item-inner shadow-dark">
+                                <div class="portfolio-img">
+                                    <img src="images/Portfolio/build-an-app-to-expand-food-access-card.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!------Portfolio item End------>
+                    </div>
+                </div>
+             </section>
+              
+              <!-------Lightbox End----->
+   
+     <!---------------JS Files=============-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+     <script src="js/script.js"></script>
+     <script src="js/style-switcher.js"></script>
+     <form name="submit-to-google-sheet">
+         <input name="email" type="email" placeholder="Email" required>
+         <button type="submit">Send</button>
+       </form>
+       
+       <script>
+         const scriptURL = 'https://script.google.com/macros/s/AKfycbwer9AtGKai5GZo48z2EJUzTknjV8e40s3jYlI8A6Urg5K12GbZXvpUVdMXH6MfccegJw/exec'
+         const form = document.forms['submit-to-google-sheet']
+       
+         form.addEventListener('submit', e => {
+           e.preventDefault()
+           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+             .then(response => console.log('Success!', response))
+             .catch(error => console.error('Error!', error.message))
+         })
+       </script>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+ <!---------------------------------Portfolio Style css--------------------------------->
+ 
+
+
+
+
+
+
+
+
+ <img src="https://static.wixstatic.com/media/95d76d_1079ba486a534a9cb1c641d1ee0f736d~mv2.png/v1/fill/w_396,h_102,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image009.png" alt="image009.png" srcset="https://static.wixstatic.com/media/95d76d_1079ba486a534a9cb1c641d1ee0f736d~mv2.png/v1/fill/w_396,h_102,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image009.png 1x, https://static.wixstatic.com/media/95d76d_1079ba486a534a9cb1c641d1ee0f736d~mv2.png/v1/fill/w_792,h_204,al_c,lg_1,q_85,enc_auto/image009.png 2x" fetchpriority="high" style="width: 396px; height: 102px; object-fit: cover;">
+ <img src="https://static.wixstatic.com/media/95d76d_c99974adbc304380a55a78225c54655e~mv2.png/v1/fill/w_368,h_102,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image029.png" alt="image029.png" srcset="https://static.wixstatic.com/media/95d76d_c99974adbc304380a55a78225c54655e~mv2.png/v1/fill/w_368,h_102,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image029.png 1x, https://static.wixstatic.com/media/95d76d_c99974adbc304380a55a78225c54655e~mv2.png/v1/fill/w_736,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/image029.png 2x" fetchpriority="high" style="width: 368px; height: 102px; object-fit: cover;">
