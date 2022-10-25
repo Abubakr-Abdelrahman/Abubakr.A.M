@@ -1268,7 +1268,12 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
-    
+    .container .grids 
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
     .lightbox .lightbox-content img
     {
        
