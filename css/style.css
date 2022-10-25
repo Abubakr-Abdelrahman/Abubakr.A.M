@@ -1299,6 +1299,15 @@ h3.my-profession
         margin-left: 65px;  
     }
 }
+@media (max-width:381px), (max-width:407px),(max-width:500px)
+{
+    .container .grids 
+    {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+}
 @media (max-width:381px), (max-width:407px), (max-width:493px), (max-width:603px)
 {
     .service .section-title h2
