@@ -430,34 +430,15 @@ h3.my-profession
 }
 .grid .personal-info-item 
 {
-    
-    display: flex;
-    height: 100px;
-    width: 100px;
-    gap: 7rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
     margin-left: -80px;
     margin-top: 36px;
 }
-.grid .personal-info-items
-{
-    display: flex;
-    height: 100px;
-    width: 100px;
-    gap: 7rem;
-    margin-left: -80px;
-    margin-top: 40px;
-    
-}
 .grid .personal-info-item img 
 {
-    margin-left: -20px;
-    width: 368px;
-    border-radius: 50%;
-}
-.grid .personal-info-items img
-{
-    margin-left: -7px;
-    width: 368px;
+    width: 100px;
     border-radius: 50%;
 }
 .grid .personal-info-item h1
@@ -471,33 +452,11 @@ h3.my-profession
     color: var(--text-black-900);
     text-transform: capitalize;
 }
-.grid .personal-info-items h1
-{
-    position: absolute;
-    margin-top: -35px;
-    line-height: 40px;
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--text-black-900);
-    text-transform: capitalize;
-    margin-left: -7px;
-}
 .grid .personal-info-item h2
 {
     position: absolute;
     margin-top: -35px;
     margin-left: 200px;
-    line-height: 40px;
-    font-weight: 600;
-    font-size: 16px;
-    color: var(--text-black-900);
-    text-transform: capitalize;
-}
-.grid .personal-info-items h2
-{
-    position: absolute;
-    margin-top: -35px;
-    margin-left: 190px;
     line-height: 40px;
     font-weight: 600;
     font-size: 16px;
@@ -515,10 +474,32 @@ h3.my-profession
     color: var(--text-black-900);
     text-transform: capitalize;
 }
-.grid .personal-info-items h3
+.grid .personal-info-item h4
 {
     position: absolute;
-    margin-top: -35px;
+    margin-top: 110px;
+    margin-left: 5px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+.grid .personal-info-item h5
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 200px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+.grid .personal-info-item h6
+{
+    position: absolute;
+    margin-top: 110px;
     margin-left: 400px;
     line-height: 40px;
     font-weight: 600;
@@ -526,7 +507,6 @@ h3.my-profession
     color: var(--text-black-900);
     text-transform: capitalize;
 }
-
 .about .about-content .personal-info .buttons
 {
     margin-top: 30px;
@@ -1215,7 +1195,28 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
-    
+    .grid .personal-info-item h3
+{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 560px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+.grid .personal-info-item h6
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 560px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
     .lightbox .lightbox-content img
     {
        
@@ -1268,6 +1269,28 @@ h3.my-profession
         flex: 0 0 100%;
         max-width: 100%;
     }
+    .grid .personal-info-item h3
+{
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 400px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+.grid .personal-info-item h6
+{
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 400px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
     .container .grids 
     {
         display: grid;
@@ -1306,6 +1329,41 @@ h3.my-profession
 }
 @media (max-width:381px), (max-width:407px),(max-width:500px)
 {
+    .about .about-content .personal-info
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .grid .personal-info-item 
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 3rem;
+        margin-left: -80px;
+        margin-top: 36px;
+    }
+    .grid .personal-info-item h3
+{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 200px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
+.grid .personal-info-item h6
+{
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 5px;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+}
     .container .grids 
     {
         display: grid;
